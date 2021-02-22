@@ -1,0 +1,16 @@
+{
+  "name": "puperteer",
+  "version": "1.0.0",
+  "description": "AutoViewYoutube",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha --timeout=30000 ./tests"
+  },
+  "author": "HuyPTIT",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.0",
+    "mocha": "^8.3.0",
+    "puppeteer": "^7.1.0"
+  }
+}
